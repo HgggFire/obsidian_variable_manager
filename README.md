@@ -19,7 +19,7 @@ A plugin for Obsidian that allows you to define and use variables in your notes 
 ```markdown
 %%price=100%%
 %%tax=0.2%%
-%%total=price (1 + tax)%%
+%%total=price * (1 + tax)%%
 ```
 
 2. Reference variables anywhere in your note:
