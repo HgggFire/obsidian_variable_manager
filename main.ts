@@ -3,7 +3,6 @@ import { Plugin, MarkdownView, Editor } from "obsidian";
 export default class VariableManagerPlugin extends Plugin {
 
 	async onload() {
-		console.log("Variable Manager Plugin Loaded");
 		// Watch for active file changes
 		this.registerEvent(
 			this.app.workspace.on("active-leaf-change", () => {
@@ -167,6 +166,5 @@ export default class VariableManagerPlugin extends Plugin {
 	}
 
 	onunload() {
-		console.log("Variable Manager Plugin Unloaded");
 	}
 }
