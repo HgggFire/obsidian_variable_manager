@@ -29,3 +29,10 @@ The total price is {{total}}
 
 3. Update the variable value and the references will be updated automatically.
 
+## Installation
+
+1. Open Obsidian Settings
+2. Go to Community Plugins and disable Safe Mode
+3. Click Browse and search for "Variable Manager"
+4. Install the plugin
+5. Enable the plugin in your list of installed plugins
