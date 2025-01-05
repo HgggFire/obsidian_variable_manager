@@ -2,6 +2,9 @@
 
 A plugin for Obsidian that allows you to define and use variables in your notes with real-time evaluation and preview.
 
+## Demo
+![Demo](https://github.com/HgggFire/obsidian_variable_manager/blob/main/demo.gif)
+
 ## Features
 
 - Define variables using the syntax `%%variable=value%%`
@@ -13,3 +16,16 @@ A plugin for Obsidian that allows you to define and use variables in your notes 
 ## Usage
 
 1. Define a variable:
+```markdown
+%%price=100%%
+%%tax=0.2%%
+%%total=price (1 + tax)%%
+```
+
+2. Reference variables anywhere in your note:
+```
+The total price is {{total}}
+```
+
+3. Update the variable value and the references will be updated automatically.
+

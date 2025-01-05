@@ -26,3 +26,4 @@ data.json
 .eslintignore
 .eslintrc
 .npmrc
+tsconfig.json
