@@ -1,13 +1,31 @@
-.variable-block.editing {
-    display: inline-block;
-    background-color: #f5f5f5;
-    padding: 2px 4px;
-    border: 1px dashed #ccc;
-    font-family: monospace;
+.variable-block {
+    display: inline;
 }
 
 .variable-block.preview {
-    display: inline-block;
-    background-color: transparent;
-    font-weight: bold;
+    font-size: 0;
+    /* Hide the original content when in preview mode */
+}
+
+.variable-block.preview::after {
+    content: attr(data-value);
+    font-size: 1rem;
+    color: var(--text-normal);
+}
+
+.variable-block.editing {
+    font-size: inherit;
+    /* Show the original content when editing */
+    background-color: var(--text-highlight-bg);
+    border-radius: 4px;
+    padding: 0 4px;
+}
+
+.variable-block.editing::after {
+    content: none;
+}
+
+/* Debug styles to make blocks visible */
+.variable-block {
+    border: 1px solid rgba(255, 0, 0, 0.1);
 }

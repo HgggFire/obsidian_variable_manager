@@ -3,9 +3,8 @@
 	"name": "Variable Manager",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "A plugin to manage variables in Obsidian.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"description": "Manage and display variables in your Obsidian notes with real-time preview",
+	"author": "Chico Lin",
+	"authorUrl": "https://github.com/HgggFire",
 	"isDesktopOnly": false
 }
