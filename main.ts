@@ -19,7 +19,6 @@ export default class VariableManagerPlugin extends Plugin {
 		if (!activeView) return;
 
 		const editor = activeView.editor;
-		// this.removeVariableBlocks(editor);
 
 		// Add debounce timer variable
 		let debounceTimer: NodeJS.Timeout;
